@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment3_Extra.Inheritance.Problem3
+namespace Assignment3_Extra.Problem3
 {
     internal class Student: Human
     {

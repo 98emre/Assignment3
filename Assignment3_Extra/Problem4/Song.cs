@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment3_Extra_Inheritance.Problem4
+namespace Assignment3_Extra.Problem4
 {
     internal class Song
     {

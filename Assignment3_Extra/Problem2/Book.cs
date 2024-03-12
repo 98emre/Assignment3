@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment3_Extra.Inheritance.Problem2
+namespace Assignment3_Extra.Problem2
 {
     internal class Book
     {

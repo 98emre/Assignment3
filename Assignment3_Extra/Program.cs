@@ -1,8 +1,8 @@
-﻿using Assignment3_Extra.Inheritance.Problem1;
-using Assignment3_Extra.Inheritance.Problem2;
-using Assignment3_Extra.Inheritance.Problem3;
-using Assignment3_Extra_Inheritance.Problem4;
-using Assignment3_Extra_Inheritance.Problem4.Exceptions;
+﻿using Assignment3_Extra.Problem1;
+using Assignment3_Extra.Problem2;
+using Assignment3_Extra.Problem3;
+using Assignment3_Extra.Problem4;
+using Assignment3_Extra.Problem4.Exceptions;
 
 namespace Assignment3_Extra
 {
@@ -14,7 +14,7 @@ namespace Assignment3_Extra
             {
                 Console.WriteLine("Welcome to the system\n");
 
-                 /* Problem 1
+                 /* //Problem 1
 
                     Person person = new Person("Emre", 25);
                     Child child = new Child("Emre Child", 14);

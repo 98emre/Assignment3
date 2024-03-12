@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment3_Extra.Inheritance.Problem1
+namespace Assignment3_Extra.Problem1
 {
     internal class Child : Person
     {
