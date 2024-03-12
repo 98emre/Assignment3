@@ -1,0 +1,35 @@
+
+
+
+
+
+
+3.3 Arv
+
+Fråga: Om vi under utvecklingen kommer fram till att samtliga fåglar behöver ett nytt attribut, i vilken klass bör vi lägga det?
+Svar: När nya attribut behövs för alla fåglar, är det lämpligt att lägga dem till i basklassen Bird 
+för att undvika kodrepetition och för att säkerställa en enhetlig implementation för alla fågelsubklasser.
+
+
+Fråga: Om alla djur behöver det nya attributet, vart skulle man lägga det då?
+Svar: Om alla djur behöver ett nytt attribut, bör det läggas till i basklassen Animal för att säkerställa 
+att det är tillgängligt för alla djursubklasser och för att undvika duplication av kod
+
+
+3.4 Mer polymorfism
+
+Fråga: Försök att lägga till en häst i listan av hundar. Varför fungerar inte det
+Svar: Det funkar inte för att dem klasserna har ingen relation till varandra tex Dog måste var parent klass till horse.
+
+Fråga: Vilken typ måste listan vara för att alla klasser skall kunna lagras tillsammans?
+Svar: Om alla ska lagras tillsammans så är det Animal klassen eftersom alla ärver från den och det är parent klass medan
+de andra är subklasser.
+
+Fråga: Förklara vad det är som händer.
+Svar: Det som händer är att alla som ärver från Aniaml och dem metoder som har gjort override så får subklasserna sin egna
+unika resultat som är mer passade till klassen.
+
+Fråga: Varför inte?
+Svar: Eftersom parent klassen har inte någon koppling till Dog förutom att Dog ärver från Animal klassen.
+För att Animal ska komma åt den methoden så måste Dog klassen vara abstrakt där Animal klassen ärver från den och metoden måste
+vara virtual eller abstrakt så att listan animals kan komma åt den.
