@@ -48,4 +48,4 @@ Your task is to model an application with three mandatory models: `Human`, `Work
 Create an online radio station database that keeps information about all added songs. Design a custom exception hierarchy for invalid songs and ensure validation for artist name, song name, and song length.
 
 ## Author
-[Emre Demirel](https://github.com/emredemirel) 
+[Emre Demirel](https://github.com/9emre) 
