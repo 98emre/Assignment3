@@ -31,5 +31,21 @@ Description of the task and solution.
 - [x] Tested printing of animals' statistics and sounds.
 - [x] Explored limitations and possibilities with lists of animals.
 
+## Extra Assignment
+
+### Problem 1: Person and Child Classes
+You are asked to model an application for storing data about people. You should be able to have a person and a child. The child is derived from the person. Your task is to model the application. The only constraints are:
+- People should not be able to have a negative age.
+- Children should not be able to have an age greater than 15.
+
+### Problem 2: Book and GoldenEditionBook Classes
+You are working in a library and want to create classes to represent ordinary books and special ones. Your program should have two classes – `Book` and `GoldenEditionBook`. A `GoldenEditionBook` is a special book that has the same properties as any book, but its price is always 30% higher.
+
+### Problem 3: Human, Worker, and Student Classes
+Your task is to model an application with three mandatory models: `Human`, `Worker`, and `Student`. Every student has a faculty number, and every worker has a weekly salary and work hours per day.
+
+### Problem 4: Online Radio Database
+Create an online radio station database that keeps information about all added songs. Design a custom exception hierarchy for invalid songs and ensure validation for artist name, song name, and song length.
+
 ## Author
 [Emre Demirel]((https://github.com/emredemirel)) 
